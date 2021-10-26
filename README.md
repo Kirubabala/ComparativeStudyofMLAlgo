@@ -1,1 +1,2 @@
-# ComparativeStudyofMLAlgo
+# A Comparative Study of Machine Learning Algorithms in Decision Making
+The project focuses on implementing Machine learning models on three different datasets from domains like Banking and Finance, Telemarketing and Hospitality. This involved predicting the loan status of a customer which helps in risk analysis for banks, whether a client will subscribe to a term deposit and predicting the price of Airbnb hotels. This study followed Knowledge Discovery in Database methodology (KDD) and and followed the process for data selection to knowledge discovery throughout the study.
