@@ -15,7 +15,10 @@ library(caTools)
 #------------------------------------------IMPORTING THE DATASET------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------#
 
-loan_data <- read.csv("C:\\Users\\Kiruba\\Data Analytics\\DMML\\Project\\Datasets\\credit_train.csv")
+#set the path in the below function setwd() to the project folder path in your local system before running the script
+setwd("C:\\Users\\Kiruba\\Data Analytics\\DMML\\Project\\ComparativeStudyofMLAlgo")
+
+loan_data <- read.csv("Datasets\\credit_train.csv")
 
 dim(loan_data)
 str(loan_data)

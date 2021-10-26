@@ -18,8 +18,10 @@ library(ggplot2)
 #-------------------------------------------------------------------------------------------------------------#
 #-----------------------------------IMPORTING THE DATASET-----------------------------------------------------#
 #-------------------------------------------------------------------------------------------------------------#
+#set the path in the below function setwd() to the project folder path in your local system before running the script
+setwd("C:\\Users\\Kiruba\\Data Analytics\\DMML\\Project\\ComparativeStudyofMLAlgo")
 
-bank_main_data.raw <- read.csv(file = "C:\\Users\\Kiruba\\Data Analytics\\DMML\\Project\\Datasets\\finaldata\\bank-additional-full.csv",
+bank_main_data.raw <- read.csv(file = "Datasets\\bank-additional-full.csv",
                               sep = ";",
                             stringsAsFactors = TRUE)
 head(bank_main_data.raw)

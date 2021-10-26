@@ -8,8 +8,10 @@ library(Amelia)
 #---------------------------------------------------------------------------------------------------------------#
 #------------------------------------------IMPORTING THE DATASET------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------#
+#set the path in the below function setwd() to the project folder path in your local system before running the script
+setwd("C:\\Users\\Kiruba\\Data Analytics\\DMML\\Project\\ComparativeStudyofMLAlgo")
 
-airbnb_data <- read.csv("C:\\Users\\Kiruba\\Data Analytics\\DMML\\Project\\Datasets\\Selected\\AB_NYC_2019.csv", stringsAsFactors = TRUE)
+airbnb_data <- read.csv("Datasets\\AB_NYC_2019.csv", stringsAsFactors = TRUE)
 
 head(airbnb_data)
 str(airbnb_data)
